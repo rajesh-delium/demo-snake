@@ -1,0 +1,31 @@
+#game{
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  border: 2px solid;
+  width: 40px;
+  height: 40px;
+}
+
+.head {
+  background-color: yellow  ;
+}
+
+.body {
+  background-color: blue;
+}
+
+.dead {
+  background-color: orange;
+}
+
+.apple {
+  border-radius: 50%;
+  background-color: violet
+}
